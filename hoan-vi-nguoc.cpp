@@ -63,7 +63,7 @@ int main(){
     }
     for(int i = v.size() - 1; i >= 0; i--){
         for(int j = 0; j < n; j++){
-            cout << v[i][j] << " ";
+            cout << v[i][j];
         }
         cout << endl;
     }
